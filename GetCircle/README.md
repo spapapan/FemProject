@@ -2,7 +2,7 @@
 <b>Find the center and radius of a circle given 3 points</b>
 
 
-The method GetCircleCenter(args[]) returns a double[] array with 3 values:
+The method GetCircleCenter(args ...) returns a double[] array with 3 values:
 
         double[0] : X coordinate of Circle
         double[1] : Y coordinate of Circle
