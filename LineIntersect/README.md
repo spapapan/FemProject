@@ -38,14 +38,15 @@
     
 You can call these methods with the following input formats:
     
-    getIntersect(double x1, double y1, double x2, double y2, double x3, double y3)
-    getIntersect(int x1, int y1, int x2, int y2, int x3, int y3)
+    getIntersect(double x1, double y1, double x2, double y2, double x3, double y3, double x4, double y4)
+    
+    getIntersect(int x1, int y1, int x2, int y2, int x3, int y3, int x4, int y4)
        
-    getIntersect(Point p1, Point p2, Point p2, Point p3)
+    getIntersect(Point p1, Point p2, Point p2, Point p3, Point p4)
        
-    getIntersect(double[] xy1, double[] xy2, double[] xy3)
+    getIntersect(double[] xy1, double[] xy2, double[] xy3, double[] xy4)
        
-    getIntersect(int[] xy1, int[] xy2, int[]xy3)
+    getIntersect(int[] xy1, int[] xy2, int[]xy3, int[]xy4)
            
            
 Same input formats apply to the methods <b>Intersected(args ...)</b> and <b>IntersectedBetween(args ...)</b> as well.
