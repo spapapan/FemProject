@@ -1,4 +1,4 @@
-<b> LineIntersect.java has 3 methods you can call,given 4 points (x1,y1), (x2,y2), (x3,y3), (x4,y4) : </b>
+<b> LineIntersect class has 3 methods you can call,given 4 points (x1,y1), (x2,y2), (x3,y3), (x4,y4) : </b>
 
 ------------------------------------------------------------------------------------------------------------------
 
@@ -43,7 +43,7 @@ You can call these methods with the following input formats:
        
     getIntersect(Point p1, Point p2, Point p2, Point p3)
        
-    getIntersect(double[] xy1, double[] xy2, double xy3)
+    getIntersect(double[] xy1, double[] xy2, double[] xy3)
        
     getIntersect(int[] xy1, int[] xy2, int[]xy3)
            
