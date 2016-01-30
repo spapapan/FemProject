@@ -204,6 +204,7 @@ public class LineIntersect {
 		else{
 			return false;
 		}
+		
 	}
 
 	
@@ -267,6 +268,72 @@ public class LineIntersect {
 		return Intersected(xa,ya,xb,yb,xc,yc,xd,yd);
 		
 	}
+	
+	//-----------------------------------------------------------------------------------------------------------------
+	
 
+
+		public double[] getIntersect(int x1, int y1, int x2, int y2, int x3, int y3, int x4, int y4){
+			
+			double xa = (double)x1;
+			double ya = (double)y1;
+			double xb = (double)x2;
+			double yb = (double)y2;
+			double xc = (double)x3;
+			double yc = (double)y3;
+			double xd = (double)x4;
+			double yd = (double)y4;
+			
+			return getIntersect(xa,ya,xb,yb,xc,yc,xd,yd);
+			
+		}
+		
+		public double[] getIntersect(Point p1, Point p2, Point p3, Point p4){
+			
+			double xa = (double)p1.x;
+			double ya = (double)p1.y;
+			double xb = (double)p2.x;
+			double yb = (double)p2.y;
+			double xc = (double)p3.x;
+			double yc = (double)p3.y;
+			double xd = (double)p4.x;
+			double yd = (double)p4.y;
+			
+			return getIntersect(xa,ya,xb,yb,xc,yc,xd,yd);
+			
+		}
+		
+		public double[] getIntersect(int[] p1, int[] p2, int[] p3, int[] p4){
+			
+			double xa = (double)p1[0];
+			double ya = (double)p1[1];
+			double xb = (double)p2[0];
+			double yb = (double)p2[1];
+			double xc = (double)p3[0];
+			double yc = (double)p3[1];
+			double xd = (double)p4[0];
+			double yd = (double)p4[1];
+			
+			return getIntersect(xa,ya,xb,yb,xc,yc,xd,yd);
+			
+		}
+		
+		
+		public double[] getIntersect(double[] p1, double[] p2, double[] p3, double[] p4){
+			
+			double xa =  p1[0];
+			double ya =  p1[1];
+			double xb =  p2[0];
+			double yb =  p2[1];
+			double xc =  p3[0];
+			double yc =  p3[1];
+			double xd =  p4[0];
+			double yd =  p4[1];
+			
+			return getIntersect(xa,ya,xb,yb,xc,yc,xd,yd);
+			
+		}
+	
+ 
 
 }
