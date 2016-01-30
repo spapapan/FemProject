@@ -1,7 +1,7 @@
 <b>Find the third point to create an equilateral triangle given 2 points</b>
 
 
-The method getEquilateral(args[]) returns a double[] array with 4 values:
+The method getEquilateral(args ...) returns a double[] array with 4 values:
 
         double[0] : X coordinate of point1
         double[1] : Y coordinate of point1
