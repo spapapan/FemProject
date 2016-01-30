@@ -31,8 +31,8 @@ You can call this method with the following point formats:
 
       double getCircle[] = new double[3];
       CircleCenter circleM = new CircleCenter();
-      int xy1[] = new int[]{10,20};
-      int xy2[] = new int[]{40,50};
-      int xy3[] = new int[]{15,25};
+      int xy1[] = new int[]{10,20}; // {x,y}
+      int xy2[] = new int[]{40,50}; // {x,y}
+      int xy3[] = new int[]{15,25}; // {x,y}
     
       getCircle = circleM.GetCircleCenter(xy1,xy2,xy3);
