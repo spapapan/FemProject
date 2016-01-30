@@ -19,7 +19,7 @@ You can call this method with the following input formats:
        
        getEquilateral(int x1, int y1, int x2, int y2)
        
-       getEquilateral(Point p1, Point p2, Point p2)
+       getEquilateral(Point p1, Point p2)
        
        getEquilateral(double[] xy1, double[] xy2)
        
