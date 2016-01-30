@@ -24,7 +24,7 @@ You can call this method with the following input formats:
        
        getAngles(Point p1, Point p2, Point p2, Point p3)
        
-       getAngles(double[] xy1, double[] xy2, double xy3)
+       getAngles(double[] xy1, double[] xy2, double[] xy3)
        
        getAngles(int[] xy1, int[] xy2, int[]xy3)
 
