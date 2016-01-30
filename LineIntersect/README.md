@@ -1,4 +1,4 @@
-<b> LineIntersect class has 3 methods you can call,given 4 points (x1,y1), (x2,y2), (x3,y3), (x4,y4) : </b>
+<b> LineIntersect class has 3 methods you can call, given 4 points (x1,y1), (x2,y2), (x3,y3), (x4,y4) : </b>
 
 ------------------------------------------------------------------------------------------------------------------
 
