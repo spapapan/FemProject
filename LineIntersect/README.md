@@ -31,8 +31,7 @@
 
 <b>Boolean IntersectedBetween(args ...) : </b> 
 
-    Returns true if the intersected point is between the line segments of 
-    {(x1,y1),(x2,y2)} and {(x3,y3),(x4,y4)} and false if the intersected point is NOT between or if the
+    Returns true if the intersected point is between the line segments of {(x1,y1),(x2,y2)} and {(x3,y3),(x4,y4)} and false if the     intersected point is NOT between or if the
     lines are parallel.
     
 <br></br>
@@ -40,7 +39,6 @@
 You can call these methods with the following input formats:
     
     getIntersect(double x1, double y1, double x2, double y2, double x3, double y3)
-       
     getIntersect(int x1, int y1, int x2, int y2, int x3, int y3)
        
     getIntersect(Point p1, Point p2, Point p2, Point p3)
