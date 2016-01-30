@@ -2,7 +2,7 @@
 <b>Find the angles (in degrees) of a triangle given 3 points</b>
 
 
-The method getAngles(args[]) returns a double[] array with 3 values:
+The method getAngles(args ...) returns a double[] array with 3 values:
 
         double[0] : Angle φ1 
         double[1] : Angle φ2
