@@ -12,7 +12,7 @@ The method GetCircleCenter(args[]) returns a double[] array with 3 values:
   
   
   
-You can call this method with the following point formats:
+You can call this method with the following input formats:
 
        GetCircleCenter(double x1, double y1, double x2, double y2, double x3, double y3)
        
