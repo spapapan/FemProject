@@ -20,7 +20,7 @@ You can call this method with the following input formats:
        
        getSide(Point p1, Point p2, Point p2, Point pk)
        
-       getSide(double[] xy1, double[] xy2, double xyk)
+       getSide(double[] xy1, double[] xy2, double[] xyk)
        
        getSide(int[] xy1, int[] xy2, int[]xyk)
        
