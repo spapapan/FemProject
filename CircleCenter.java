@@ -1,3 +1,13 @@
+/*
+*     
+*
+*       ----------------- Returns the Center and radius of a circle given 3 points ---------------------------
+*
+*
+*/
+
+
+
 import java.awt.Point;
 import java.util.LinkedList;
 
