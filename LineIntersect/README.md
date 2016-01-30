@@ -31,7 +31,8 @@
 
 <b>Boolean IntersectedBetween(args ...) : </b> 
 
-    Returns true if the intersected point is between the line segments of {(x1,y1),(x2,y2)} and {(x3,y3),(x4,y4)} and false if the     intersected point is NOT between or if the
+    Returns true if the intersected point is between the line segments of {(x1,y1),(x2,y2)} 
+    and {(x3,y3),(x4,y4)} and false if the intersected point is NOT between or if the 
     lines are parallel.
     
 <br></br>
