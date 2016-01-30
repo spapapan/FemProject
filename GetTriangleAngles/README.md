@@ -7,16 +7,14 @@ The method getAngles(args[]) returns a double[] array with 3 values:
         double[0] : Angle φ1 
         double[1] : Angle φ2
         double[2] : Angle φ3
-        
-  
+<br></br>
        &raquo; Angle φ1 is the angle between the lines  {(x1,y1),(x2,y2)} and {(x1,y1),(x3,y3)}
 
        &raquo; Angle φ1 is the angle between the lines  {(x2,y2),(x1,y1)} and {(x2,y2),(x3,y3)}
 
        &raquo; Angle φ1 is the angle between the lines  {(x3,y3),(x1,y1)} and {(x3,y3),(x2,y2)}
   
-  
-  
+<br></br>
 You can call this method with the following input formats:
 
        getAngles(double x1, double y1, double x2, double y2, double x3, double y3)
