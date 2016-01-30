@@ -4,8 +4,8 @@
 
 The method GetCircleCenter(args ...) returns a double[] array with 3 values:
 
-        array[0] : X coordinate of Circle
-        array[1] : Y coordinate of Circle
+        array[0] : X coordinate of the center of Circle
+        array[1] : Y coordinate of the center of Circle
         array[2] : Radius of Circle
         
   
