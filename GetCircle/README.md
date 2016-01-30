@@ -18,7 +18,7 @@ You can call this method with the following point formats:
        
        GetCircleCenter(int x1, int y1, int x2, int y2, int x3, int y3)
        
-       GetCircleCenter(Point p1, Point p2, Point p2)
+       GetCircleCenter(Point p1, Point p2, Point p2, Point p3)
        
        GetCircleCenter(double[] xy1, double[] xy2, double xy3)
        
