@@ -30,9 +30,9 @@ You can call this method with the following point formats:
 <b> Example: </b>
 
       double getCircle[] = new double[3];
-      GetCircleCenter circleM = new GetCircleCenter();
+      CircleCenter circleM = new CircleCenter();
       int xy1[] = new int[]{10,20};
       int xy2[] = new int[]{40,50};
       int xy3[] = new int[]{15,25};
     
-      getCircle = GetCircleCenter(xy1,xy2,xy3);
+      getCircle = circleM.GetCircleCenter(xy1,xy2,xy3);
