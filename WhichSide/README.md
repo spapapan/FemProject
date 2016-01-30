@@ -1,7 +1,7 @@
 <b>Find in which side of a line a point lies given 3 points</b>
 
 
-The method getSide(args[]) returns an int value:
+The method getSide(args ...) returns an int value:
 
          1 : if the point lies on one side
         -1 : if the point lies on the other side
