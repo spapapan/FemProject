@@ -3,10 +3,10 @@
 
 The method getEquilateral(args ...) returns a double[] array with 4 values:
 
-        double[0] : X coordinate of point1
-        double[1] : Y coordinate of point1
-        double[2] : X coordinate of point2
-        double[3] : Y coordinate of point2
+        array[0] : X coordinate of point1
+        array[1] : Y coordinate of point1
+        array[2] : X coordinate of point2
+        array[3] : Y coordinate of point2
         
 
 This method returns two points, because there are two possible equilateral triangles for a every line segment.  
