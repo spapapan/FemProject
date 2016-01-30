@@ -20,7 +20,7 @@ You can call this method with the following input formats:
        
        GetCircleCenter(Point p1, Point p2, Point p2, Point p3)
        
-       GetCircleCenter(double[] xy1, double[] xy2, double xy3)
+       GetCircleCenter(double[] xy1, double[] xy2, double[] xy3)
        
        GetCircleCenter(int[] xy1, int[] xy2, int[]xy3)
        
