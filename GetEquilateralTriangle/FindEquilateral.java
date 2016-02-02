@@ -9,7 +9,7 @@ import java.util.LinkedList;
 
 public class FindEquilateral {
 
-	private double finalxy[] = new double[4]; // 0:x1, 1:y1, 2:x2, 3:y2
+	private double finalxy[] = new double[4]; // 0:x1, 1:y1, 2:x1', 3:y1'
 	
 	public FindEquilateral() {
 		
