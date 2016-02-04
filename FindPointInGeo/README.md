@@ -1,4 +1,4 @@
-<b>Find a point which lies within a simple polygon. It is an implementation of the crossing number 
+<b>Return a point which lies within a simple polygon. It is an implementation of the crossing number 
 algorithm also known as the even-odd rule algorithm</b>
  
 -------------------------------------------------------------------------------------------------------------------------------
