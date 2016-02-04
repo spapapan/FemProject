@@ -23,7 +23,7 @@ You can call this method with the following input formats:
  <br></br>
  <b> Example: </b>
 <br></br>
-<img width="400" height="300" src="https://40.media.tumblr.com/980acc62e37b0c2276029f3551e29744/tumblr_o1zy73BDBy1s1v7hso1_1280.png"></img>
+<img width="400" height="300" src="https://36.media.tumblr.com/1641b4291ef5592143d5623f08e8f0d0/tumblr_o209j1Ez3e1s1v7hso1_1280.png"></img>
 <br></br>
 
  
@@ -31,25 +31,25 @@ You can call this method with the following input formats:
 		FindOuterGeo getGeo = new FindOuterGeo();
 		LinkedList<Point> points = new LinkedList<Point>();
 		LinkedList<LinkedList<Point>> pointsList = new LinkedList<LinkedList<Point>>();
-        // First geometry
+        // geo0
 		points.add(new Point(20,20));
 		points.add(new Point(30,20));
 		points.add(new Point(30,40));
-		pointsList.add((LinkedList<Point>) points.clone()); // add first geometry to pointList
+		pointsList.add((LinkedList<Point>) points.clone()); // add geo0 to pointList
 		points.clear();
-		// Second geometry		
+		// geo1		
 		points.add(new Point(10,10));
 		points.add(new Point(50,10));
 		points.add(new Point(10,50));
 		points.add(new Point(50,50));
-		pointsList.add((LinkedList<Point>) points.clone()); // add Second geometry to pointList
+		pointsList.add((LinkedList<Point>) points.clone()); // add geo1 to pointList
 		points.clear();
-		// Third geometry		
+		// geo2		
 		points.add(new Point(35,10));
 		points.add(new Point(45,10));
 		points.add(new Point(45,30));
 		points.add(new Point(35,40));
-		pointsList.add((LinkedList<Point>) points.clone()); // add Second geometry to pointList
+		pointsList.add((LinkedList<Point>) points.clone()); // add geo2 to pointList
 		points.clear();
 		
 		outerGeo = getGeo.getFindOuterGeo(pointsList);
