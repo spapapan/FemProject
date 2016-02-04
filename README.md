@@ -17,3 +17,5 @@
 <b>GetTriangleAngles :</b> Returns the angles (in degrees) of a triangle given 3 points
 
 <b>FindOuterGeo : </b> Returns the index of the geometry which encloses the others given N polygons
+
+<b>FindPointInGeo : </b> Returns a point which lies within a simple polygon.
