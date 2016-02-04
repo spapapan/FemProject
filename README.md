@@ -15,3 +15,5 @@
 <b>WhichSide :</b> Returns in which side of a line a point lies given 3 points
 
 <b>GetTriangleAngles :</b> Returns the angles (in degrees) of a triangle given 3 points
+
+<b>FindOuterGeo : </b> Returns the index of the geometry which encloses the others, given N simple polygons
