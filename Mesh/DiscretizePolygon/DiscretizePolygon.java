@@ -81,7 +81,7 @@ public class DiscretizePolygon {
         	    double a = Slope[i][0][j];
         	    double b = Slope[i][1][j];
         			
-        	    // Solution for positive sign
+        	        // Solution for positive sign
         		double Xthe = (-((2*a)*(b - ya) - 2*xa) + Math.sqrt(Math.abs(Math.pow(((2*a)*(b - ya) - 2*xa), 2) - 4*(1 + a*a)*(xa*xa + Math.pow((b - ya),2) -  Math.pow(dist[i][j]/nkom,2)))))/(2 + 2*a*a);
         		// Solution for negative sign
         		double Xarn = (-((2*a)*(b - ya) - 2*xa) - Math.sqrt(Math.abs(Math.pow(((2*a)*(b - ya) - 2*xa), 2) - 4*(1 + a*a)*(xa*xa + Math.pow((b - ya),2) -  Math.pow(dist[i][j]/nkom,2)))))/(2 + 2*a*a); 
