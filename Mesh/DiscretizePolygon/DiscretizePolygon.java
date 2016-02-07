@@ -66,15 +66,15 @@ public class DiscretizePolygon {
             	double ysa = Ypoint[i][j];
 
         		for (int ii = 0; ii <= nkom; ii++) {
-        			if (ii == 0){
+        		if (ii == 0){
         				Xmpoint[i][ii][j] = Xpoint[i][j];
         				Ympoint[i][ii][j] = Ypoint[i][j];
         				if (nkom==0){
         					Xmpoint[i][ii+1][j] = Xpoint[i+1][j];
-            				Ympoint[i][ii+1][j] = Ypoint[i+1][j];
+            				        Ympoint[i][ii+1][j] = Ypoint[i+1][j];
         					numpoints[i][j]++;
         				}
-        			}
+        		 	    }
         		else {
         		
         			
