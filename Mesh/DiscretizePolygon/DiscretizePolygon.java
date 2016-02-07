@@ -13,8 +13,6 @@ public class DiscretizePolygon {
  
 	private int nkom;
 	
- 
-
 	public DiscretizePolygon() {
 		// TODO Auto-generated constructor stub
 	}
