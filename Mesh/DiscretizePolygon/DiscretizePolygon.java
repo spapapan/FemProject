@@ -21,14 +21,14 @@ public class DiscretizePolygon {
 
 	private LinkedList<LinkedList<Point>> createOutGeomesh(int Xpoint[][], int Ypoint[][], int nump[],int n) {
 		
-		int c2 = Xpoint[0].length;
-		int field1 = Xpoint.length;
-		double field2 = Xpoint.length*(1/(0.01*n));
-	    double Xmpoint[][][] = new double[field1][(int) field2][c2]; //Coordinate X of intermediate points
-	    double Ympoint[][][] = new double[field1][(int) field2][c2]; //Coordinate Y of intermediate points
-		double Slope[][][] = new double[field1][2][c2]; // coefficient a,b of a line ( y = a*x + b) 
-	    double dist[][] = new double[field1][c2]; // Distance between two points
-	    int numpoints[][] = new int[field1][c2]; // Number of intermediate points of a line
+	int c2 = Xpoint[0].length;
+	int field1 = Xpoint.length;
+	double field2 = Xpoint.length*(1/(0.01*n));
+	double Xmpoint[][][] = new double[field1][(int) field2][c2]; //Coordinate X of intermediate points
+	double Ympoint[][][] = new double[field1][(int) field2][c2]; //Coordinate Y of intermediate points
+	double Slope[][][] = new double[field1][2][c2]; // coefficient a,b of a line ( y = a*x + b) 
+	double dist[][] = new double[field1][c2]; // Distance between two points
+	int numpoints[][] = new int[field1][c2]; // Number of intermediate points of a line
  
         for (int j = 0; j < c2; j++) {
             for (int i = 0; i < nump[j]; i++) {
