@@ -59,7 +59,7 @@ public class DiscretizePolygon {
                     	nkom = (int) nkomdou + 1;
                 }
                 else{
-        			    nkom = (int) nkomdou;  
+        		nkom = (int) nkomdou;  
                 }
                 
         	double xsa =  Xpoint[i][j];
