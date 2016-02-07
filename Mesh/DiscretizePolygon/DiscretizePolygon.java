@@ -32,10 +32,10 @@ public class DiscretizePolygon {
             for (int i = 0; i < nump[j]; i++) {
 
            		double xa =  Xpoint[i][j];
-        		double ya = Ypoint[i][j];
+        		double ya =  Ypoint[i][j];
         		
         		double xb =  Xpoint[i+1][j];
-        		double yb = Ypoint[i+1][j];
+        		double yb =  Ypoint[i+1][j];
         		
         		// Calculate coefficient a,b of a line ( y = a*x + b) 
         		if (xb-xa==0){
@@ -150,7 +150,7 @@ public class DiscretizePolygon {
 
  
         			
-        			} 
+        	    } 
                     
 
                 }  
