@@ -1,3 +1,3 @@
 # FemProject
 
-<b>Finete Element Method</b>
+<b>Finite Element Method</b>
